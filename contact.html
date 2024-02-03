@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For at google ikke finder sitet -->
+    <meta name="robots" content="noindex">
+    <!-- A summary of a page's content -->
+    <meta name="description" content="Portfolio">
+    <!-- links til stylesheet og layout -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="generel.css">
+    <!-- Google font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Contact</title>
+</head>
+<!------------------------------------------------------------------------------->
+
+<body id="page8">
+
+    <!-- HEADER (TOP website) -->
+    <header class="header">
+        <input type="checkbox" id="check">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo_sort.webp" alt="home button"></a>
+            </div>
+            <label for="check" class="menu-toggle">
+                <span class="bar"></span><!--selve stregen overbollen-->
+                <span class="bar"></span><!--selve stregen midterbollen-->
+                <span class="bar"></span><!--selve stregen underbollen-->
+            </label>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN (Center website) -->
+    <main class="contact_info">
+        <section>
+            <div class="contact">
+                <h2>Kontakt mig</h2>
+                <br>
+                <p>Ring for en konsultation tlf: (+45) 29 62 48 32
+                    <br>
+                    Eller udfyld formularen forneden
+                </p>
+            </div>
+            <div class="contact_form">
+                <form name="contant" netlify>
+                    <input type="text" id="fullname" name="name" placeholder="Name">
+                    <input type="email" id="email" name="emailaddress" placeholder="Email">
+                    <input type="text" id="topic" name="topic" placeholder="Topic">
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="min-height:100px; max-height: 150px;"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- END MAIN -->
+
+    <!-- FOOTER (BOTTOM website) -->
+    <footer>
+        <div class="footer_txt">
+            <p> Multimediedesign eksamen Semester 1 2023 - Charlotte Koudal</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="login.js"></script> <!--login til sitet-->
+</body>
+
+</html>
