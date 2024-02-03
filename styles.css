@@ -419,7 +419,6 @@ h4 {
   /*  width: 90%; */
   align-self: end;
 }
-
 @media (max-width: 1157px) {
   .grid_5-1 {
     grid-template-columns: repeat(4, 1fr); /* Ændrer til  kolonner */
@@ -1161,9 +1160,6 @@ hr {
   background-color: #fff; /* Whole page9 background is color white */
   box-sizing: border-box; /* The box-sizing property includes the padding and border in an element‘s total width and height. */
 }
-.contact p {
-  font-size: 15px;
-}
 .contact_info {
   display: flex;
   justify-content: center;
@@ -1281,6 +1277,15 @@ input[type="submit"]:hover {
     cursor: pointer;
     max-width: 128px;
   }
+  .footer_txt_8 p {
+    font-size: 8px;
+    margin-left: 27px;
+    margin-top: 150px;
+    writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+    transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+    transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+    height: 140px; /* Juster højden efter behov */
+  }
 }
 @media (max-width: 675px) {
   .logo {
@@ -1328,10 +1333,10 @@ input[type="submit"]:hover {
   .contact_form textarea {
     display: inline;
   }
-  .footer_txt p {
+  .footer_txt_8 p {
     font-size: 8px;
     margin-left: 27px;
-    margin-top: 90px;
+    margin-top: 150px;
     writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
     transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
     transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
@@ -1347,6 +1352,9 @@ input[type="submit"]:hover {
   .logo img {
     height: 55px;
     width: 55px;
+  }
+  .contact p {
+    font-size: 15px;
   }
   .contact_info h2 {
     background-color: rgb(98, 210, 186);
@@ -1384,10 +1392,10 @@ input[type="submit"]:hover {
   .contact_form textarea {
     display: inline;
   }
-  .footer_txt p {
+  .footer_txt_8 p {
     font-size: 8px;
     margin-left: 27px;
-    margin-top: 90px;
+    margin-top: 150px;
     writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
     transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
     transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
