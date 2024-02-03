@@ -1300,6 +1300,10 @@ input[type="submit"]:hover {
     height: 55px;
     width: 55px;
   }
+  .contact_info {
+    text-align: center;
+    margin-left: 4px;
+  }
   .contact_info h2 {
     background-color: rgb(98, 210, 186);
     border-radius: 6px 0px 6px 0px; /* curves the corners of the border */
@@ -1360,9 +1364,16 @@ input[type="submit"]:hover {
     height: 55px;
     width: 55px;
   }
+  .contact-info {
+  }
   .p_txt {
     font-size: 12px;
     margin: 10px 0px;
+    max-width: ;
+  }
+  .contact_info {
+    text-align: center;
+    margin: 0px;
   }
   .contact_info h2 {
     background-color: rgb(98, 210, 186);
