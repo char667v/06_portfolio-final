@@ -253,25 +253,25 @@ h4 {
   .title1a {
     position: absolute;
     margin-top: -147px;
-    margin-left: 163px;
+    margin-left: 161px;
     font-size: 12px;
   }
   .title1b {
     position: absolute;
     margin-top: -131px;
-    margin-left: 166px;
+    margin-left: 164px;
     font-size: 12px;
   }
   .title1c {
     position: absolute;
     margin-top: -116px;
-    margin-left: 167px;
+    margin-left: 165px;
     font-size: 12px;
   }
   .title1d {
     position: absolute;
     margin-top: -102px;
-    margin-left: 172px;
+    margin-left: 170px;
     font-size: 12px;
   }
   .right_side1 {
@@ -1160,6 +1160,9 @@ hr {
 #page8 {
   background-color: #fff; /* Whole page9 background is color white */
   box-sizing: border-box; /* The box-sizing property includes the padding and border in an element‘s total width and height. */
+}
+.contact p {
+  font-size: 15px;
 }
 .contact_info {
   display: flex;
