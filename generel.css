@@ -27,7 +27,7 @@ img {
 }
 .nav-item {
   list-style: none;
-  /* done */
+  margin-left: 40px;
 }
 .navbar {
   display: flex;
@@ -46,7 +46,6 @@ img {
   width: 30px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out; /* fix dette */
   transition: all 0.3s ease-in-out;
   background-color: #101010;
 }
@@ -55,17 +54,19 @@ img {
   /* justify-content: space-between; */
   align-items: center;
 }
-.nav-item {
-  margin-left: 40px;
-}
 .nav-link {
   font-size: 16px;
   color: #000000;
 }
 .nav-link:hover {
-  background: #383838;
   color: rgb(98, 210, 186);
   transition: 0.3s;
+}
+
+.navlist:hover {
+  background: #383838;
+  transition: 0.3s;
+  /* height: 490px; */
 }
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
