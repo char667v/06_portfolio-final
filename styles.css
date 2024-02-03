@@ -1173,7 +1173,6 @@ hr {
   margin-top: 75px;
   width: 810px; /* the element has a fixed width of 810 pixels. */
 }
-
 .contact_form form {
   display: flex;
   flex-direction: column;
@@ -1187,6 +1186,10 @@ hr {
   font-family: inter;
   font-size: 20px; /* specified size for font */
   margin-left: 114px;
+}
+.p_txt {
+  font-size: 14px;
+  margin: 10px 0px;
 }
 .contact_form input,
 .contact_form textarea {
@@ -1252,6 +1255,10 @@ input[type="submit"]:hover {
     font-size: 20px; /* specified size for font */
     margin-left: 200px;
   }
+  .p_txt {
+    font-size: 14px;
+    margin: 10px 0px;
+  }
   .contact_form form {
     display: flex;
     flex-direction: column;
@@ -1303,6 +1310,10 @@ input[type="submit"]:hover {
     font-family: inter;
     font-size: 20px; /* specified size for font */
     margin-left: 275px;
+  }
+  .p_txt {
+    font-size: 14px;
+    margin: 10px 0px;
   }
   .contact_form form {
     display: flex;
