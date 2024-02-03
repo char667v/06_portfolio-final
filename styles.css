@@ -280,22 +280,21 @@ h4 {
   }
   .right_side1 h3 {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-left: -52px;
   }
   .right_side1 h4 {
     margin-left: -27px;
-    margin-bottom: 5px;
   }
   .right_side1 hr {
     position: relative;
     border: none;
     height: 3px;
     background-color: #000000;
-    width: 180px;
+    width: 130px;
     transform: rotate(90deg);
     margin-left: 86px;
-    margin-top: -21px;
+    margin-top: -51px;
   }
   .h4text {
     margin-left: 45px;
@@ -303,7 +302,7 @@ h4 {
   }
   .enterlink {
     margin-left: 39px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 20px;
   }
   .right_side2 {
