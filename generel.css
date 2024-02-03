@@ -127,7 +127,7 @@ nav .menu-toggle .bar {
 nav .menu-toggle {
   display: grid; /*igen grid eller none*/ /* vigtigt skift fra grid til none til grid naar tilfojet i input */
   height: min-content;
-  margin: 24px -10px 0 0;
+  margin: 25px -10px 0 0;
   cursor: pointer;
   transition: 0.3s;
 }
