@@ -329,7 +329,6 @@ h4 {
 /*************** PORTFOLIO page ****************/
 #page2 {
   background-color: #e8e8e8;
-  font-family: inter;
 }
 .grid_5-1 {
   display: grid;
@@ -367,7 +366,6 @@ h4 {
 .col_4_5,
 .col_5_5,
 h3 {
-  font-family: "inter";
   font-size: 18px;
 }
 .col_1_5,
@@ -376,7 +374,6 @@ h3 {
 .col_4_5,
 .col_5_5,
 h4 {
-  font-family: "inter";
   /* font-size: 10px;  */ /* paavirker h4 paa index page! */
   text-decoration: none;
 }
