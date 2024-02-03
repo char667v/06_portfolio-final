@@ -9,7 +9,6 @@
   } */
 #index_page {
   background: #8b8b8b;
-  font-family: inter;
 }
 #index_page .logo {
   position: relative;
@@ -461,7 +460,6 @@ h4 {
 .page4_title h1,
 .page5_title h1,
 .page6_title h1 {
-  font-family: Inter;
   font-size: 35px;
 }
 #grid_6-3,
@@ -470,7 +468,6 @@ h4 {
 #grid_6-6 {
   margin-top: 80px;
   margin-inline: 140px;
-  font-family: inter;
 }
 .wrapper1_3,
 .wrapper1_4,
@@ -745,6 +742,15 @@ h4 {
   margin-top: 42px;
 }
 @media (max-width: 675px) {
+  /* yes */
+  .page3_title h1,
+  .page4_title h1,
+  .page5_title h1,
+  .page6_title h1 {
+    font-size: 25px;
+    width: 900px;
+    margin-left: -80px;
+  }
   .wrapper1_3,
   .wrapper1_4,
   .wrapper1_5,
@@ -785,9 +791,7 @@ h4 {
     grid-column: 1; /* All boxes take the entire width */
   }
 }
-/* .weblink1_4,
-  .weblink2_4 {
-  } */
+
 /****************** ABOUT/CV page ****************/
 .page_7 {
   position: relative;
@@ -797,7 +801,6 @@ h4 {
   margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  font-family: inter;
   margin-inline: 220px;
 }
 .page_7 .left_side {
@@ -1182,7 +1185,6 @@ hr {
   color: rgb(0, 0, 0); /* txt color is black */
   width: 580px; /* the element has a fixed width of 580 pixels. */
   padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
-  font-family: inter;
   font-size: 20px; /* specified size for font */
   margin-left: 114px;
 }
@@ -1201,7 +1203,6 @@ hr {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: inter;
 }
 input[type="submit"] {
   display: flex;
@@ -1250,7 +1251,6 @@ input[type="submit"]:hover {
     color: rgb(0, 0, 0); /* txt color is black */
     width: 400px; /* the element has a fixed width of 580 pixels. */
     padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
-    font-family: inter;
     font-size: 20px; /* specified size for font */
     margin-left: 200px;
   }
@@ -1310,7 +1310,6 @@ input[type="submit"]:hover {
     color: rgb(0, 0, 0); /* txt color is black */
     width: 250px; /* the element has a fixed width of 580 pixels. */
     padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
-    font-family: inter;
     font-size: 20px; /* specified size for font */
     margin-left: 275px;
   }
@@ -1381,7 +1380,6 @@ input[type="submit"]:hover {
     color: rgb(0, 0, 0); /* txt color is black */
     width: 250px; /* the element has a fixed width of 580 pixels. */
     padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
-    font-family: inter;
     font-size: 20px; /* specified size for font */
     margin-left: 276px;
   }
