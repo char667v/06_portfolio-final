@@ -1,0 +1,1393 @@
+/*************** INDEX page ****************/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* img {
+    filter: grayscale(100%);
+    opacity: 1; /* Adjust the opacity value as needed *
+  } */
+#index_page {
+  background: #8b8b8b;
+  font-family: inter;
+}
+#index_page .logo {
+  position: relative;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+#index_page .header {
+  display: none;
+}
+.frontpage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#arch img {
+  padding-top: 20px;
+  display: flex;
+  width: 580px;
+  height: 700px;
+  margin-left: 70px;
+  margin-top: 14px;
+  filter: grayscale(100%);
+  opacity: 1; /* Adjust the opacity value as needed */
+}
+.title1a {
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 310px;
+}
+.title1b {
+  position: absolute;
+  margin-top: -207px;
+  margin-left: 314px;
+}
+.title1c {
+  position: absolute;
+  margin-top: -184px;
+  margin-left: 314px;
+}
+.title1d {
+  position: absolute;
+  margin-top: -163px;
+  margin-left: 325px;
+}
+.right_side1 {
+  margin-top: 400px;
+  margin-left: 40px;
+}
+.right_side1 h3,
+h4 {
+  position: relative;
+  color: #000000;
+}
+.right_side1 h3 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-left: -33px;
+}
+.right_side1 h4 {
+  margin-left: -10px;
+  margin-bottom: 5px;
+}
+.h4text h4 {
+  margin-left: 35px;
+  margin-bottom: 40px;
+}
+.right_side1 hr {
+  position: relative;
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  max-width: 200px;
+  transform: rotate(90deg);
+  margin-left: 50px;
+  margin-top: -50px;
+}
+.enterlink {
+  margin-left: 52px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.enterlink h5 {
+  color: rgb(98, 210, 186);
+}
+.enterlink a {
+  text-decoration: none;
+}
+.enterlink a.enter h5:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+.h2text1 {
+  color: #000000;
+  margin-left: 210px;
+  margin-top: -190px;
+  font-size: 120px;
+}
+.h2text2 {
+  color: #000000;
+  margin-left: 210px;
+  margin-top: -45px;
+  font-size: 120px;
+}
+.h2text3 {
+  color: #000000;
+  margin-left: 210px;
+  margin-top: -45px;
+  font-size: 120px;
+}
+.weblink3_1.a {
+  color: rgba(98, 210, 186, 1);
+}
+.weblink3_2 {
+  background-color: rgba(98, 210, 186, 1);
+  margin-left: 340px;
+  padding: 15px;
+  width: 89px;
+  position: relative;
+  justify-content: center;
+  border-radius: 6px 0px 6px 0px;
+}
+@media (max-width: 768px) {
+  .frontpage {
+    grid-template-columns: 1fr;
+    max-width: 328px;
+  }
+  #arch img {
+    padding-top: 20px;
+    display: flex;
+    width: 580px;
+    height: 700px;
+    margin-left: 70px;
+    margin-top: 14px;
+    filter: grayscale(100%);
+    opacity: 1; /* Adjust the opacity value as needed */
+  }
+  .title1a {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 310px;
+  }
+  .title1b {
+    position: absolute;
+    margin-top: -207px;
+    margin-left: 314px;
+  }
+  .title1c {
+    position: absolute;
+    margin-top: -184px;
+    margin-left: 314px;
+  }
+  .title1d {
+    position: absolute;
+    margin-top: -163px;
+    margin-left: 325px;
+  }
+  .right_side1 {
+    margin-top: 41px;
+    margin-left: 180px;
+  }
+  .right_side2 .h2text1,
+  .h2text2,
+  .h2text3 {
+    font-size: 90px;
+    line-height: 120px;
+  }
+  .enterlink a.enter h5:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    /* Ændre skyggen, når musen holdes over teksten */
+  }
+}
+@media (max-width: 675px) {
+  .frontpage {
+    grid-template-columns: 1fr;
+    max-width: 328px;
+  }
+  #arch img {
+    padding-top: 20px;
+    display: flex;
+    max-width: 328px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 2px;
+    z-index: -2;
+  }
+  .title1a {
+    position: absolute;
+    margin-top: -147px;
+    margin-left: 214px;
+    font-size: 15px;
+  }
+  .title1b {
+    position: absolute;
+    margin-top: -131px;
+    margin-left: 216px;
+    font-size: 15px;
+  }
+  .title1c {
+    position: absolute;
+    margin-top: -117px;
+    margin-left: 218px;
+    font-size: 15px;
+  }
+  .title1d {
+    position: absolute;
+    margin-top: -102px;
+    margin-left: 224px;
+    font-size: 15px;
+  }
+  .right_side1 {
+    margin-top: 41px;
+    margin-left: 40px;
+  }
+  .right_side2 .h2text1,
+  .h2text2,
+  .h2text3 {
+    font-size: 90px;
+    line-height: 120px;
+  }
+  .enterlink a.enter h5:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    /* Ændre skyggen, når musen holdes over teksten */
+  }
+}
+@media (max-width: 390px) {
+  #index_page .logo {
+    position: relative;
+    margin-left: 13px;
+    margin-top: 15px;
+  }
+  .frontpage {
+    grid-template-columns: 1fr;
+  }
+  #arch img {
+    padding-top: 20px;
+    display: flex;
+    max-width: 328px;
+    height: auto;
+    margin-left: 33px;
+    margin-top: 2px;
+    z-index: -2;
+  }
+  .title1a {
+    position: absolute;
+    margin-top: -147px;
+    margin-left: 157px;
+    font-size: 15px;
+  }
+  .title1b {
+    position: absolute;
+    margin-top: -131px;
+    margin-left: 159px;
+    font-size: 15px;
+  }
+  .title1c {
+    position: absolute;
+    margin-top: -117px;
+    margin-left: 160px;
+    font-size: 15px;
+  }
+  .title1d {
+    position: absolute;
+    margin-top: -102px;
+    margin-left: 168px;
+    font-size: 15px;
+  }
+  .right_side1 {
+    margin-top: 41px;
+    margin-left: 134px;
+  }
+  .right_side1 h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: -52px;
+  }
+  .right_side1 h4 {
+    margin-left: -27px;
+    margin-bottom: 5px;
+  }
+  .right_side1 hr {
+    position: relative;
+    border: none;
+    height: 3px;
+    background-color: #000000;
+    width: 180px;
+    transform: rotate(90deg);
+    margin-left: 86px;
+    margin-top: -21px;
+  }
+  .h4text {
+    margin-left: 45px;
+    margin-bottom: 5px;
+  }
+  .enterlink {
+    margin-left: 39px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .right_side2 {
+    margin-left: -268px;
+    margin-top: 239px;
+  }
+  .h2text1 {
+    color: #000000;
+    margin-left: 210px;
+    margin-top: -190px;
+  }
+  .h2text2 {
+    color: #000000;
+    margin-left: 210px;
+    margin-top: -45px;
+  }
+  .h2text3 {
+    color: #000000;
+    margin-left: 210px;
+    margin-top: -45px;
+  }
+}
+/*************** PORTFOLIO page ****************/
+#page2 {
+  background-color: #e8e8e8;
+  font-family: inter;
+}
+.grid_5-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  margin-inline: 120px;
+}
+.grid_5-1 img {
+  width: 100%;
+}
+.col_3_5 img {
+  filter: grayscale(50%);
+  opacity: 1; /* Adjust the opacity value as needed*/
+}
+.col_1_5 img:hover,
+.col_2_5 img:hover,
+.col_3_5 img:hover,
+.col_4_5 img:hover,
+.col_5_5 img:hover {
+  box-shadow: 0px 0px 30px rgba(98, 210, 186, 1);
+}
+.col_1_5,
+.col_2_5,
+.col_3_5,
+.col_4_5,
+.col_5_5 {
+  margin-top: 50px;
+}
+.col_1_5,
+.col_2_5,
+.col_3_5,
+.col_4_5,
+.col_5_5,
+h3 {
+  font-family: "inter";
+  font-size: 18px;
+}
+.col_1_5,
+.col_2_5,
+.col_3_5,
+.col_4_5,
+.col_5_5,
+h4 {
+  font-family: "inter";
+  /* font-size: 10px;  */ /* paavirker h4 paa index page! */
+  text-decoration: none;
+}
+.grid_5-1 .col_1_5 h2,
+.grid_5-1 .col_2_5 h2,
+.grid_5-1 .col_3_5 h2,
+.grid_5-1 .col_4_5 h2,
+.grid_5-1 .col_5_5 h2 {
+  transform: rotate(-90deg);
+  /* Won't be fully aligned do to angle - affects other elements! */
+  margin-left: 210px;
+  color: #000000;
+  font-size: 30px;
+}
+.grid_5-1 .col_1_5 h3,
+.grid_5-1 .col_2_5 h3,
+.grid_5-1 .col_3_5 h3,
+.grid_5-1 .col_4_5 h3,
+.grid_5-1 .col_5_5 h3 {
+  color: #000000;
+  text-align: end;
+}
+.grid_5-1 .col_1_5 h4,
+.grid_5-1 .col_2_5 h4,
+.grid_5-1 .col_3_5 h4,
+.grid_5-1 .col_4_5 h4,
+.grid_5-1 .col_5_5 h4 {
+  text-align: end;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+}
+.col_1_5,
+.col_2_5,
+.col_3_5,
+.col_4_5 {
+  /* border: 1px solid #ccc; */
+  padding: 15px;
+  /* text-align: center; */
+  /*  width: 90%; */
+  align-self: end;
+}
+
+@media (max-width: 1157px) {
+  .grid_5-1 {
+    grid-template-columns: repeat(4, 1fr); /* Ændrer til  kolonner */
+  }
+}
+@media (max-width: 980px) {
+  .grid_5-1 {
+    grid-template-columns: repeat(3, 1fr); /* Ændrer til  kolonner */
+  }
+}
+@media (max-width: 935px) {
+  .grid_5-1 {
+    grid-template-columns: repeat(2, 1fr); /* Ændrer til to kolonner */
+  }
+}
+@media (max-width: 675px) {
+  .grid_5-1 {
+    grid-template-columns: 1fr; /* Ændrer til én kolonne */
+  }
+}
+
+@media (max-width: 390px) {
+  .grid_5-1 {
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+  }
+}
+
+/****************** WEB page ****************/
+
+/****************** UX page ****************/
+
+/*************** ANIMATION page ****************/
+
+/*************** CONTENT page ****************/
+.page3_title,
+.page4_title,
+.page5_title,
+.page6_title {
+  margin-bottom: 50px;
+  position: relative;
+}
+.page3_title h1,
+.page4_title h1,
+.page5_title h1,
+.page6_title h1 {
+  font-family: Inter;
+  font-size: 35px;
+}
+#grid_6-3,
+#grid_6-4,
+#grid_6-5,
+#grid_6-6 {
+  margin-top: 80px;
+  margin-inline: 140px;
+  font-family: inter;
+}
+.wrapper1_3,
+.wrapper1_4,
+.wrapper1_5,
+.wrapper1_6 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+#box1_3,
+#box1_4,
+#box1_5,
+#box1_6 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+#box1_2-3,
+#box1_2-4,
+#box1_2-5,
+#box1_2-6 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  padding-top: 2px;
+}
+#box1_2-6 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  padding-top: 2px;
+}
+#box2_3,
+#box2_4,
+#box2_5,
+#box2_6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+#box2_2-3,
+#box2_2-4,
+#box2_2-5,
+#box2_2-6 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+#box3_3,
+#box3_4,
+#box3_5,
+#box3_6 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#box3_2-3,
+#box3_2-4,
+#box3_2-5,
+#box3_2-6 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#box4_3,
+#box4_4,
+#box4_5,
+#box4_6 {
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+#box4_2-3,
+#box4_2-4,
+#box4_2-5,
+#box4_2-6 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#box5_3,
+#box5_4,
+#box5_5,
+#box5_6 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+#box5_2-3,
+#box5_2-4,
+#box5_2-5,
+#box5_2-6 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+#box6_3,
+#box6_4,
+#box6_5,
+#box6_6 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+#box6_2-3,
+#box6_2-4,
+#box6_2-5,
+#box6_2-6 {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+#txt3,
+#txt4,
+#txt5,
+#txt6 {
+  font-size: 160px;
+}
+#box1_2-3 .line3,
+#box2_2-3 .line3,
+#box3_2-3 .line3,
+#box5_2-3 .line3,
+#box6_2-3 .line3 {
+  position: relative;
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  max-width: 200px;
+  gap: 0;
+}
+#box1_2-4 .line4,
+#box2_2-4 .line4,
+#box3_2-4 .line4,
+#box5_2-4 .line4,
+#box6_2-4 .line4 {
+  position: relative;
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  max-width: 200px;
+  gap: 0;
+}
+#box1_2-5 .line5,
+#box2_2-5 .line5,
+#box3_2-5 .line5,
+#box5_2-5 .line5,
+#box6_2-5 .line5 {
+  position: relative;
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  max-width: 200px;
+  gap: 0;
+}
+#box1_2-6 .line6,
+#box2_2-6 .line6,
+#box3_2-6 .line6,
+#box5_2-6 .line6,
+#box6_2-6 .line6 {
+  position: relative;
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  max-width: 200px;
+  gap: 0;
+}
+#box4_2-3 .line3,
+#box4_2-4 .line4,
+#box4_2-5 .line5,
+#box4_2-6 .line6 {
+  height: 3px;
+  background-color: #000000;
+  max-width: 200px;
+  justify-items: right;
+}
+.wrapper2_3,
+.wrapper2_4,
+.wrapper2_5,
+.wrapper2_6 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  margin-top: 100px;
+}
+.video1_6 {
+  margin-top: 130px;
+  margin-left: 385px;
+}
+.video2_6 {
+  margin-top: 80px;
+  margin-left: 0px;
+}
+.col1_3,
+.col1_4,
+.col1_5,
+.col1_6 {
+  grid-column: 2/4;
+  grid-row: 1/1;
+  padding: 10px;
+  padding-top: 19px;
+}
+.col2_3,
+.col2_4,
+.col2_5,
+.col2_6 {
+  grid-column: 3/5;
+  grid-row: 2/2;
+  padding: 10px;
+  padding-top: 86px;
+}
+
+.col3_3,
+.col3_4,
+.col3_5,
+.col4_6 {
+  grid-column: 1/3;
+  grid-row: 3/3;
+  padding: 10px;
+  padding-top: 19px;
+}
+.col3_3 li,
+.col3_4 li,
+.col3_5 li,
+.col4_6 li {
+  list-style-type: square;
+}
+.col3_6 {
+  grid-column: 2/4;
+  grid-row: 3/3;
+  padding: 10px;
+  padding-top: 90px;
+}
+#box6_2-6 .li1-6,
+#box6_2-6 .li2-6,
+#box6_2-6 .li3-6,
+#box6_2-6 .li4-6,
+#box6_2-6 .li5-6 {
+  list-style: circle;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.redesign_pleasant {
+  margin-left: 0px;
+  margin-top: 12px;
+}
+.weblink1_4 {
+  padding: 20px;
+  margin-top: 30px;
+  background-color: rgba(98, 210, 186, 1);
+  border-radius: 10px 0px 10px 0px;
+  width: 133px;
+}
+
+.weblink2_4 {
+  padding: 20px;
+  margin-top: 30px;
+  background-color: rgba(98, 210, 186, 1);
+  border-radius: 10px 0px 10px 0px;
+  width: 133px;
+}
+.weblink1_5 {
+  background-color: rgba(98, 210, 186, 1);
+  margin-left: 200px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 89px;
+  position: relative;
+  justify-content: center;
+  border-radius: 6px 0px 6px 0px;
+}
+.weblink1_5 a {
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.weblink1_6 {
+  margin-left: 100px;
+  grid-column: 5/6;
+}
+.weblink1_6a {
+  grid-column: 5/6;
+  margin-top: 42px;
+}
+@media (max-width: 675px) {
+  .wrapper1_3,
+  .wrapper1_4,
+  .wrapper1_5,
+  .grid1_6 {
+    display: grid;
+    grid-template-columns: 1fr; /* Switch to a single column on smaller screens */
+  }
+  #box1_3,
+  #box2_3,
+  #box3_3,
+  #box4_3,
+  #box5_3,
+  #box6_3 {
+    grid-column: 1; /* All boxes take the entire width */
+  }
+  #box1_4,
+  #box2_4,
+  #box3_4,
+  #box4_4,
+  #box5_4,
+  #box6_4 {
+    grid-column: 1; /* All boxes take the entire width */
+  }
+  #box1_5,
+  #box2_5,
+  #box3_5,
+  #box4_5,
+  #box5_5,
+  #box6_5 {
+    grid-column: 1; /* All boxes take the entire width */
+  }
+  #box1_6,
+  #box2_6,
+  #box3_6,
+  #box4_6,
+  #box5_6,
+  #box6_6 {
+    grid-column: 1; /* All boxes take the entire width */
+  }
+}
+/* .weblink1_4,
+  .weblink2_4 {
+  } */
+/****************** ABOUT/CV page ****************/
+.page_7 {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: inter;
+  margin-inline: 220px;
+}
+.page_7 .left_side {
+  /** LEFT **/
+  position: relative;
+  background: rgb(98, 210, 186);
+  padding: 40px;
+}
+.profiletxt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.436);
+}
+.profiletxt .profilecircle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profiletxt h2 {
+  color: #151515;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.profiletxt h2 span {
+  font-size: 0.8em;
+  font-weight: 100;
+}
+.contactinfo {
+  padding-top: 40px;
+}
+.title {
+  color: #151515;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+.contactinfo ul {
+  position: relative;
+}
+.contactinfo span {
+  margin-left: 10px;
+}
+.contactinfo ul li {
+  position: relative;
+  list-style: none;
+  color: #151515;
+  line-height: 1.4rem;
+  cursor: pointer;
+}
+.language {
+  padding-top: 40px;
+}
+.language ul {
+  position: relative;
+}
+.language span {
+  margin-left: 10px;
+}
+.language ul li {
+  position: relative;
+  list-style: none;
+  color: #151515;
+  line-height: 1.4rem;
+}
+.it {
+  padding-top: 40px;
+}
+.it ul {
+  position: relative;
+}
+.it span {
+  margin-left: 10px;
+}
+.it ul li {
+  position: relative;
+  list-style: none;
+  color: #151515;
+  line-height: 1.4rem;
+}
+.rating-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.private {
+  padding-top: 40px;
+}
+.private h4,
+.p {
+  margin-left: 0px;
+}
+.private h4 {
+  color: #151515;
+}
+.private p {
+  margin-left: 12px;
+}
+/* ********************* */
+.page_7 .right_side {
+  /** RIGHT **/
+  position: relative;
+  background: #373636;
+  padding: 40px;
+}
+.about h1 {
+  color: #ffffff;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+hr {
+  position: relative;
+  border: none;
+  height: 3px;
+  background-color: #ffffff;
+  max-width: 200px;
+}
+.about h2 {
+  color: #ffffff;
+  padding-top: 10px;
+  margin-left: 0;
+  /* font-size: 15px; */
+}
+.about p {
+  color: #ffffff;
+}
+.skills h2 {
+  color: #ffffff;
+  padding-top: 40px;
+  margin-left: 0;
+}
+.skills title {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+.skillsgrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 16px;
+}
+.box1,
+.box2,
+.box3 {
+  color: #ffffff;
+}
+.education h2 {
+  color: #ffffff;
+  padding-top: 40px;
+  margin-left: 0;
+}
+.education h3 {
+  color: #ffffff;
+}
+.education title {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+.education h4 {
+  color: #ffffff;
+}
+.education li {
+  position: relative;
+  margin-left: 16px;
+  color: #ffffff;
+}
+.courses title {
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+.courses h2 {
+  color: #ffffff;
+  padding-top: 40px;
+  margin-left: 0;
+}
+.courses h3 {
+  color: #ffffff;
+}
+.courses h4 {
+  color: #ffffff;
+}
+.courses li {
+  position: relative;
+  margin-left: 16px;
+  color: #ffffff;
+}
+.courses2 h3 {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+.courses2 h4 {
+  color: #ffffff;
+}
+.courses2 li {
+  position: relative;
+  margin-left: 16px;
+  color: #ffffff;
+}
+.footer_txt_7 p {
+  font-size: 8px;
+  margin-left: 27px;
+  writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+  transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+  transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+  height: 140px; /* Juster højden efter behov */
+}
+@media (max-width: 1150px) {
+  .logo {
+    position: relative;
+    margin-left: -12px;
+    margin-top: 20px;
+  }
+  .page_7 {
+    margin: 10px;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (max-width: 1000px) {
+  .logo {
+    position: relative;
+    margin-left: -12px;
+    margin-top: 20px;
+  }
+  .page_7 {
+    margin: 10px;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (max-width: 935px) {
+  .logo {
+    position: relative;
+    margin-left: -12px;
+    margin-top: 20px;
+  }
+  .page_7 {
+    margin: 0px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .left_side,
+  .right_side {
+    max-width: 933px;
+  }
+  .about h1 {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .skillsgrid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 16px;
+    font-size: 18px;
+  }
+  .footer_txt_7 p {
+    font-size: 8px;
+    margin-left: 27px;
+    writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+    transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+    transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+    height: 140px; /* Juster højden efter behov */
+    margin-top: 150px;
+  }
+}
+@media (max-width: 675px) {
+  .logo {
+    position: relative;
+    margin-left: -12px;
+    margin-top: 20px;
+  }
+  .page_7 {
+    margin: 0px;
+    grid-template-columns: 1fr;
+  }
+  .left_side,
+  .right_side {
+    max-width: 933px;
+  }
+  .about h1 {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .skillsgrid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 16px;
+    font-size: 18px;
+  }
+  .footer_txt_7 p {
+    font-size: 8px;
+    margin-left: 27px;
+    writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+    transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+    transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+    height: 140px; /* Juster højden efter behov */
+    margin-top: 150px;
+  }
+}
+@media (max-width: 390px) {
+  .logo {
+    position: relative;
+    margin-left: -12px;
+    margin-top: 20px;
+  }
+  .page_7 {
+    margin: 0px;
+    grid-template-columns: 1fr;
+  }
+  .left_side,
+  .right_side {
+    max-width: 333px;
+  }
+  .about h1 {
+    color: #ffffff;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .skillsgrid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 16px;
+    font-size: 11px;
+  }
+  .footer_txt p {
+    font-size: 8px;
+    margin-left: 27px;
+    writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+    transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+    transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+    height: 140px; /* Juster højden efter behov */
+    margin-top: 150px;
+  }
+}
+
+/*************** CONTACT page ****************/
+#page8 {
+  background-color: #fff; /* Whole page9 background is color white */
+  box-sizing: border-box; /* The box-sizing property includes the padding and border in an element‘s total width and height. */
+}
+.contact_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 4px;
+}
+.contact,
+.contact_form {
+  flex: 1;
+  padding: 5px; /* Adjust as needed */
+}
+.contact {
+  margin-top: 75px;
+  width: 810px; /* the element has a fixed width of 810 pixels. */
+}
+
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact_info h2 {
+  background-color: rgb(98, 210, 186);
+  border-radius: 6px 0px 6px 0px; /* curves the corners of the border */
+  color: rgb(0, 0, 0); /* txt color is black */
+  width: 580px; /* the element has a fixed width of 580 pixels. */
+  padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
+  font-family: inter;
+  font-size: 20px; /* specified size for font */
+  margin-left: 114px;
+}
+.contact_form input,
+.contact_form textarea {
+  margin-bottom: 10px; /* Adjust as needed */
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width are include total width and height */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: inter;
+}
+input[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6px;
+  margin-left: 330px;
+  z-index: 1;
+  background-color: #606060;
+  color: rgb(234, 230, 230);
+  padding: 12px 40px;
+  border: 1px;
+  border-color: #a49f9f;
+  border-radius: 6px 0px 6px 0px;
+  cursor: pointer;
+  max-width: 134px;
+}
+input[type="submit"]:hover {
+  background-color: #505050;
+  color: #e3e3e3;
+}
+@media (max-width: 1100px) {
+  .logo {
+    position: relative;
+    margin-left: -60px;
+    margin-top: 20px;
+  }
+  .logo img {
+    height: 55px;
+    width: 55px;
+  }
+}
+@media (max-width: 935px) {
+  .logo {
+    position: relative;
+    margin-left: -60px;
+    margin-top: 20px;
+  }
+  .logo img {
+    height: 55px;
+    width: 55px;
+  }
+  .contact_info h2 {
+    background-color: rgb(98, 210, 186);
+    border-radius: 6px 0px 6px 0px; /* curves the corners of the border */
+    color: rgb(0, 0, 0); /* txt color is black */
+    width: 400px; /* the element has a fixed width of 580 pixels. */
+    padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
+    font-family: inter;
+    font-size: 20px; /* specified size for font */
+    margin-left: 200px;
+  }
+  .contact_form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 636px;
+    margin-left: 80px;
+  }
+  input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 256px;
+    z-index: 1;
+    background-color: #606060;
+    color: rgb(234, 230, 230);
+    padding: 12px 40px;
+    border: 1px;
+    border-color: #a49f9f;
+    border-radius: 6px 0px 6px 0px;
+    cursor: pointer;
+    max-width: 128px;
+  }
+}
+@media (max-width: 675px) {
+  .logo {
+    position: relative;
+    margin-left: -60px;
+    margin-top: 20px;
+  }
+  .logo img {
+    height: 55px;
+    width: 55px;
+  }
+  .contact_info h2 {
+    background-color: rgb(98, 210, 186);
+    border-radius: 6px 0px 6px 0px; /* curves the corners of the border */
+    color: rgb(0, 0, 0); /* txt color is black */
+    width: 250px; /* the element has a fixed width of 580 pixels. */
+    padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
+    font-family: inter;
+    font-size: 20px; /* specified size for font */
+    margin-left: 275px;
+  }
+  .contact_form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 436px;
+    margin-left: 180px;
+  }
+  input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 150px;
+    z-index: -2;
+    background-color: #606060;
+    color: rgb(234, 230, 230);
+    padding: 12px 40px;
+    border: 1px;
+    border-color: #a49f9f;
+    border-radius: 6px 0px 6px 0px;
+    cursor: pointer;
+    max-width: 128px;
+  }
+  .contact_form input,
+  .contact_form textarea {
+    display: inline;
+  }
+  .footer_txt p {
+    font-size: 8px;
+    margin-left: 27px;
+    margin-top: 90px;
+    writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+    transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+    transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+    height: 140px; /* Juster højden efter behov */
+  }
+}
+@media (max-width: 390px) {
+  .logo {
+    position: relative;
+    margin-left: -60px;
+    margin-top: 20px;
+  }
+  .logo img {
+    height: 55px;
+    width: 55px;
+  }
+  .contact_info h2 {
+    background-color: rgb(98, 210, 186);
+    border-radius: 6px 0px 6px 0px; /* curves the corners of the border */
+    color: rgb(0, 0, 0); /* txt color is black */
+    width: 250px; /* the element has a fixed width of 580 pixels. */
+    padding: 12px 20px; /* shorthand: 12px for top and bottom/ 20px for right and left - created space between the content and its border */
+    font-family: inter;
+    font-size: 20px; /* specified size for font */
+    margin-left: 276px;
+  }
+  .contact_form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin-left: 230px;
+  }
+  input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 110px;
+    z-index: 1;
+    background-color: #606060;
+    color: rgb(234, 230, 230);
+    padding: 12px 40px;
+    border: 1px;
+    border-color: #a49f9f;
+    border-radius: 6px 0px 6px 0px;
+    cursor: pointer;
+    max-width: 128px;
+  }
+  .contact_form input,
+  .contact_form textarea {
+    display: inline;
+  }
+  .footer_txt p {
+    font-size: 8px;
+    margin-left: 27px;
+    margin-top: 90px;
+    writing-mode: vertical-lr; /* Ændrer tekstretningen til lodret fra venstre mod højre */
+    transform-origin: top left; /* Angiver det øverste venstre hjørne som transformationens omdrejningspunkt */
+    transform: rotate(-180deg); /* Drejer teksten lodret med -90 grader */
+    height: 140px; /* Juster højden efter behov */
+  }
+}
