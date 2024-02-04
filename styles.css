@@ -702,6 +702,22 @@ h4 {
 .redesign_pleasant {
   margin-left: 0px;
   margin-top: 12px;
+  color: rgb(0, 0, 0);
+}
+.redesign_pleasant:hover {
+  margin-left: 0px;
+  margin-top: 12px;
+  color: rgba(98, 210, 186, 1);
+}
+.procesdokumentation {
+  margin-left: 0px;
+  margin-top: 12px;
+  color: rgb(0, 0, 0);
+}
+.procesdokumentation:hover {
+  margin-left: 0px;
+  margin-top: 12px;
+  color: rgba(98, 210, 186, 1);
 }
 .weblink1_4 {
   padding: 20px;
