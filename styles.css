@@ -790,6 +790,9 @@ h4 {
   #box6_6 {
     grid-column: 1; /* All boxes take the entire width */
   }
+  img {
+    width: 100%;
+  }
 }
 
 /****************** ABOUT/CV page ****************/
