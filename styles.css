@@ -1312,6 +1312,9 @@ input[type="submit"]:hover {
     width: 55px;
   }
   .contact_info {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-left: -155px;
     display: inline-block;
@@ -1382,6 +1385,9 @@ input[type="submit"]:hover {
     display: inline-block;
   }
   .contact_info {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-left: -210px;
     display: inline-block;
