@@ -1160,11 +1160,12 @@ hr {
   box-sizing: border-box; /* The box-sizing property includes the padding and border in an element‘s total width and height. */
 }
 .contact_info {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 4px;
+  margin-left: 310px;
+  display: inline-block;
 }
 .contact,
 .contact_form {
@@ -1191,6 +1192,7 @@ hr {
 .p_txt {
   font-size: 14px;
   margin: 10px 0px;
+  display: inline-block;
 }
 .contact_form input,
 .contact_form textarea {
@@ -1245,6 +1247,14 @@ input[type="submit"]:hover {
     height: 55px;
     width: 55px;
   }
+  .contact_info {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    display: inline-block;
+  }
   .contact_info h2 {
     background-color: rgb(98, 210, 186);
     border-radius: 6px 0px 6px 0px; /* curves the corners of the border */
@@ -1257,6 +1267,7 @@ input[type="submit"]:hover {
   .p_txt {
     font-size: 14px;
     margin: 10px 0px;
+    display: inline-block;
   }
   .contact_form form {
     display: flex;
@@ -1302,7 +1313,8 @@ input[type="submit"]:hover {
   }
   .contact_info {
     text-align: center;
-    margin-left: 4px;
+    margin-left: -155px;
+    display: inline-block;
   }
   .contact_info h2 {
     background-color: rgb(98, 210, 186);
@@ -1316,6 +1328,7 @@ input[type="submit"]:hover {
   .p_txt {
     font-size: 14px;
     margin: 10px 0px;
+    display: inline-block;
   }
   .contact_form form {
     display: flex;
@@ -1363,16 +1376,15 @@ input[type="submit"]:hover {
     height: 55px;
     width: 55px;
   }
-  .contact-info {
-  }
   .p_txt {
     font-size: 12px;
     margin: 10px 0px;
-    max-width: ;
+    display: inline-block;
   }
   .contact_info {
     text-align: center;
-    margin: 0px;
+    margin-left: -210px;
+    display: inline-block;
   }
   .contact_info h2 {
     background-color: rgb(98, 210, 186);
